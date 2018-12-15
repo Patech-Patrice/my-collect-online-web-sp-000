@@ -19,8 +19,8 @@ end
   # call your method here!
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-my_collect(["Tim", "Tom", "Jim"]) do |collection|
- my_collect(collection) do |collection|
+
+ my_collect(array) do |name|
   name.split(" ").first
 end
 end
