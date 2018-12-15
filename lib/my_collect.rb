@@ -1,5 +1,5 @@
 collection = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-def my_collect(collection)
+def my_collect(array)
   empty_array = []
   
   array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
