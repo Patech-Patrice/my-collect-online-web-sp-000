@@ -1,7 +1,7 @@
 
 def my_collect(array)
   i = 0
-  collection = []
+  collection = [] # can handle an empty collection
   while i < array.length
   collection << yield(array[i])
    i += 1
